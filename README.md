@@ -7,6 +7,8 @@ Based on the original version, this fork adds necessary functions to the Chat si
 3. Image/file sending
 4. Advanced Message filtering
 
+![overview](docs/revamped-chat-bar.png)
+
 A [demo](https://voluble-creponne-519431.netlify.app/) was hosted on Heroku (backend) and Netlify (frontend). The build process is mostly the same as the original. But because we used an Amazon S3 instance as the image/file server, you need to follow the extra steps to set up the microservice to get these functions working.
 
 > Because Twilio charges us each connection to the backend by minutes, the current max participant number was set to 2.
